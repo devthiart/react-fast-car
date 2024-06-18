@@ -1,56 +1,90 @@
 {
   "oficinas": [
     {
-      "id_oficina": 1,
+      "id": 1,
       "nome_fantasia": "Oficina Mecânica Silva",
       "email": "oficinamecanicasilva@email.com",
       "senha": "s3nh4_f0rt3",
-      "foto_oficina": "https://www.pexels.com/pt-br/procurar/mec%C3%A2nica/",
+      "foto": "https://images.pexels.com/photos/15489247/pexels-photo-15489247/free-photo-of-trabalhando-homens-carro-veiculo.jpeg",
       "razao_social": "Silva & Cia. Peças e Serviços Automotivos Ltda.",
       "cnpj": "00.000.000/0001-00",
       "inscricao_estadual": "1234567890",
       "localizacao": "Rua dos Mecânicos, 123 - Bairro Centro",
       "telefone": "(31) 3333-3333",
-      "whatsapp": "(31) 99999-9999"
+      "whatsapp": "(31) 99999-9999",
+      "categorias": ["Manutenção Periódica", "Mecânica em Geral", "Retífica"]
     },
     {
-      "id_oficina": 2,
+      "id": 2,
       "nome_fantasia": "Elétrica Express",
       "email": "eletricaexpress@email.com",
       "senha": "luZ3s_El3tr1c4s",
-      "foto_oficina": "https://www.pexels.com/photo/crop-focused-ethnic-engineer-using-electric-screwdriver-442151/",
+      "foto": "https://images.pexels.com/photos/442151/pexels-photo-442151.jpeg",
       "razao_social": "Elétrica Express Ltda.",
       "cnpj": "11.111.111/0001-11",
       "inscricao_estadual": "9876543210",
       "localizacao": "Avenida Principal, 456 - Bairro Jardim Europa",
       "telefone": "(31) 4444-4444",
-      "whatsapp": "(31) 88888-8888"
+      "whatsapp": "(31) 88888-8888",
+      "categorias": ["Auto Elétrica"]
     },
     {
-      "id_oficina": 3,
+      "id": 3,
       "nome_fantasia": "Lavagem Car Automotiva",
       "email": "lavagemcarautomotiva@email.com",
       "senha": "l1mp3z4_c4rr0",
-      "foto_oficina": "https://www.pexels.com/search/carwash/",
+      "foto": "https://images.pexels.com/photos/372810/pexels-photo-372810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "razao_social": "Lavagem Car Automotiva Ltda.",
       "cnpj": "22.222.222/0001-22",
       "inscricao_estadual": "1234567890",
       "localizacao": "Rua das Flores, 789 - Bairro Vila Nova",
       "telefone": "(31) 5555-5555",
-      "whatsapp": "(31) 77777-7777"
+      "whatsapp": "(31) 77777-7777",
+      "categorias": ["Estética Automotiva"]
     },
     {
-      "id_oficina": 4,
+      "id": 4,
       "nome_fantasia": "Borracharia Central",
       "email": "borrachariacentral@email.com",
       "senha": "pneus3cur0s",
-      "foto_oficina": "https://www.pexels.com/es-es/buscar/mecanico/",
+      "foto": "https://images.pexels.com/photos/8986070/pexels-photo-8986070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "razao_social": "Borracharia Central Ltda.",
       "cnpj": "33.333.333/0001-33",
       "inscricao_estadual": "9876543210",
       "localizacao": "Rua das Borrachas, 1011 - Bairro Industrial",
       "telefone": "(31) 6666-6666",
-      "whatsapp": "(31) 66666-6666"
+      "whatsapp": "(31) 66666-6666",
+      "categorias": ["Pneus, Suspensão e Freios"]
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Pneus, Suspensão e Freios"
+    },
+    {
+      "id": 2,
+      "nome": "Manutenção Periódica"
+    },
+    {
+      "id": 3,
+      "nome": "Mecânica em Geral"
+    },
+    {
+      "id": 4,
+      "nome": "Auto Elétrica"
+    },
+    {
+      "id": 5,
+      "nome": "Funilaria"
+    },
+    {
+      "id": 6,
+      "nome": "Estética Automotiva"
+    },
+    {
+      "id": 7,
+      "nome": "Retífica"
     }
   ]
 }
