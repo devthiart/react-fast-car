@@ -1,9 +1,10 @@
 import './Home.css';
 import { useEffect, useState } from 'react';
 import { getOficinas } from '../../services/oficinas';
-import { getCategorias } from '../../services/categorias'
+import { getCategorias } from '../../services/categorias';
 import Header from '../../components/Header';
 import Categorias from '../../components/Categorias';
+import ShopItem from '../../components/ShopItem';
 
 const Home = () => {
   const [oficinas, setOficinas] = useState([]);
@@ -30,7 +31,7 @@ const Home = () => {
       <Categorias options={categorias} />
       {oficinas.map(oficina => {
         return (
-          <p key={oficina.id}>{oficina.nome_fantasia}</p>
+          <ShopItem key={oficina.id} shopData={oficina} />
         )
       })}
     </div>
