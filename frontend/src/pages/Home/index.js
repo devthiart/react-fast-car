@@ -26,7 +26,7 @@ const Home = () => {
   }, [])
 
   return (
-    <div className="App">
+    <div className="Home">
       <Header />
       <Categorias options={categorias} />
       {oficinas.map(oficina => {

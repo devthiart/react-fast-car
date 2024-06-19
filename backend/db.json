@@ -10,9 +10,12 @@
       "cnpj": "00.000.000/0001-00",
       "inscricao_estadual": "1234567890",
       "localizacao": "Rua dos Mecânicos, 123 - Bairro Centro",
+      "dias_atendimento": "Seg. a Sex.",
+      "horario_atendimento": "8:00h às 18:00h",
       "telefone": "(31) 3333-3333",
       "whatsapp": "(31) 99999-9999",
-      "categorias": ["Manutenção Periódica", "Mecânica em Geral", "Retífica"]
+      "categorias": ["Manutenção Periódica", "Mecânica em Geral", "Retífica"],
+      "pontuacao": "5.0"
     },
     {
       "id": 2,
@@ -24,9 +27,12 @@
       "cnpj": "11.111.111/0001-11",
       "inscricao_estadual": "9876543210",
       "localizacao": "Avenida Principal, 456 - Bairro Jardim Europa",
+      "dias_atendimento": "Seg. a Sex.",
+      "horario_atendimento": "8:00h às 18:00h",
       "telefone": "(31) 4444-4444",
       "whatsapp": "(31) 88888-8888",
-      "categorias": ["Auto Elétrica"]
+      "categorias": ["Auto Elétrica"],
+      "pontuacao": "4.5"
     },
     {
       "id": 3,
@@ -38,9 +44,12 @@
       "cnpj": "22.222.222/0001-22",
       "inscricao_estadual": "1234567890",
       "localizacao": "Rua das Flores, 789 - Bairro Vila Nova",
+      "dias_atendimento": "Seg. a Sex.",
+      "horario_atendimento": "8:00h às 18:00h",
       "telefone": "(31) 5555-5555",
       "whatsapp": "(31) 77777-7777",
-      "categorias": ["Estética Automotiva"]
+      "categorias": ["Estética Automotiva"],
+      "pontuacao": "4.8"
     },
     {
       "id": 4,
@@ -52,9 +61,12 @@
       "cnpj": "33.333.333/0001-33",
       "inscricao_estadual": "9876543210",
       "localizacao": "Rua das Borrachas, 1011 - Bairro Industrial",
+      "dias_atendimento": "Seg. a Sex.",
+      "horario_atendimento": "8:00h às 18:00h",
       "telefone": "(31) 6666-6666",
       "whatsapp": "(31) 66666-6666",
-      "categorias": ["Pneus, Suspensão e Freios"]
+      "categorias": ["Pneus, Suspensão e Freios"],
+      "pontuacao": "4.3"
     }
   ],
   "categorias": [
