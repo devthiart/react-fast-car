@@ -1,6 +1,7 @@
 import StarRating from "../StarRating";
 import BoxShopItem from "./BoxShopItem";
 import ImageShop from "./ImageShop";
+import ButtonLink from "../ButtonLink";
 
 const ShopItem = ({ shopData }) => {
   return (
@@ -11,6 +12,7 @@ const ShopItem = ({ shopData }) => {
       <p>{shopData.localizacao}</p>
       <p>{shopData.dias_atendimento}</p>
       <p>{shopData.horario_atendimento}</p>
+      <ButtonLink id={shopData.id}>Saiba Mais</ButtonLink>
     </BoxShopItem>
   )
 }
