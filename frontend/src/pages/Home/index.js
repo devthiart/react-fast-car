@@ -5,6 +5,7 @@ import { getCategorias } from '../../services/categorias';
 import Header from '../../components/Header';
 import Categorias from '../../components/Categorias';
 import ShopItem from '../../components/ShopItem';
+import ShopContainer from '../../components/ShopContainer';
 
 const Home = () => {
   const [oficinas, setOficinas] = useState([]);
@@ -29,11 +30,14 @@ const Home = () => {
     <div className="Home">
       <Header />
       <Categorias options={categorias} />
-      {oficinas.map(oficina => {
-        return (
-          <ShopItem key={oficina.id} shopData={oficina} />
-        )
-      })}
+      <ShopContainer>{
+        oficinas.map(oficina => {
+          return (
+            <ShopItem key={oficina.id} shopData={oficina} />
+          )
+        })
+      }</ShopContainer>
+
     </div>
   );
 }
