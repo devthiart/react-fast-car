@@ -1,4 +1,6 @@
 import { useState } from "react";
+import CategoriasContainer from "./CategoriasContainer";
+import CategoriasDropdown from "./CategoriasDropdown";
 
 const Categorias = ({ options }) => {
   const [selectedOption, setSelectedOption] = useState('');
@@ -8,17 +10,17 @@ const Categorias = ({ options }) => {
   };
 
   return (
-    <div>
-      <h4>Categorias</h4>
-      <select value={selectedOption} onChange={handleChange}>
+    <CategoriasContainer>
+      <h5>Categorias</h5>
+      <CategoriasDropdown value={selectedOption} onChange={handleChange}>
         <option value="" disabled>-- Selecione --</option>
         {options.map((option) => (
           <option key={option.id} value={option.nome}>
             {option.nome}
           </option>
         ))}
-      </select>
-    </div>
+      </CategoriasDropdown>
+    </CategoriasContainer>
   );
 }
 

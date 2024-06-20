@@ -19,8 +19,11 @@ Table Oficina {
   cnpj varchar(20) [unique]
   inscricao_estadual varchar(20)
   localizacao varchar(255)
+  dias_atendimento varchar(50)
+  horario_atendimento varchar(50)
   telefone varchar(15)
   whatsapp varchar(15)
+  pontuacao decimal(5, 2)
 }
 
 Table Promocao {
